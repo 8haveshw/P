@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="./output.css">
+    <title>Bhavesh Wange</title>
+</head>
+
+<body class="font-nunito bg-gray-800  ">
+
+    <div class="h-[50vh] lg:h-screen bg-gradient-to-t from-gray-900 dark:from-white dark:to-slate-50  relative overflow-hidden">
+
+        <nav class="w-full fixed top-0 bg-black z-10 dark:bg-slate-50">
+            <div class=" flex justify-between items-center container mx-auto text-white py-5">
+                <div class="flex items-center gap-4">
+                    <img src="../Images/logo.png" class="w-12 h-10" alt="logo">
+                    <span class="text-2xl font-bold text-green-400 dark:text-green-500 ">Bhavesh Wange</span>
+                </div>
+
+                <ul class="hidden md:flex space-x-10 text-white dark:text-gray-600 font-bold text-sm uppercase ">
+                    <li><a href="#" class="hover:text-green-400 hover:underline">Home</a></li>
+                    <li>
+                        <a href="#about" class="hover:text-green-400 hover:underline">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="hover:text-green-400 hover:underline">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#certificate" class="hover:text-green-400 hover:underline">Certificate</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="hover:text-green-400 hover:underline">project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:text-green-400 hover:underline">Contact</a>
+                    </li>
+                </ul>
+                <!-- <label class="hidden md:block items-center me-5 cursor-pointer">
+                    <input type="checkbox" value="" class="sr-only peer" checked>
+                    <div
+                        class="relative w-11 h-6 bg-gray-200 rounded-full dark:bg-gray-700 peer-checked:after:translate-x-full rtl:peer-checked:after:-translate-x-full peer-checked:after:border-white after:content-[''] after:absolute after:top-0.5 after:start-[2px] after:bg-white after:border-gray-300 after:border after:rounded-full after:h-5 after:w-5 after:transition-all dark:border-gray-600 peer-checked:bg-green-400">
+                    </div>
+
+                </label> -->
+                <img
+            id="moon"
+            src="../Images/sun.png"
+            class="hidden md:block w-5 cursor-pointer"
+            alt=""
+          />
+
+                <div id="bar" class="space-y-1 md:hidden cursor-pointer">
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                    <div class="w-6 h-0.5 bg-white"></div>
+                </div>
+                <ul id="menu"
+                    class=" hidden bg-gray-600 absoluteleft-0 top-0 w-full p-10 rounded-b-3xl space-y-10 text-white text-center">
+                    <li><a href="#" class="hover:text-green-400 hover:underline">Home</a></li>
+                    <li>
+                        <a href="#about" class="hover:text-green-400 hover:underline">About Me</a>
+                    </li>
+                    <li>
+                        <a href="#skills" class="hover:text-green-400 hover:underline">Skills</a>
+                    </li>
+                    <li>
+                        <a href="#certificate" class="hover:text-green-400 hover:underline">Certificate</a>
+                    </li>
+                    <li>
+                        <a href="#project" class="hover:text-green-400 hover:underline">project</a>
+                    </li>
+                    <li>
+                        <a href="#contact" class="hover:text-green-400 hover:underline">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+
+        <img class="absolute bottom-0 right-0 lg:left-0 mx-auto h-5/6 object-cover " src="../Images/man.png">
+        <div
+            class="hidden lg:block absolute -bottom-1/4 right-0 left-0 mx-auto w-big h-big rounded-full bg-green-500 -z-20">
+        </div>
+        <div
+            class="absolute top-1/3 left-5 text-xl sm:left-10 sm:text-4xl md:left-1/4 md:text-6xl lg:left-5 xl:left-48 xl:text-7xl ">
+            <span class="text-amber-600 font-bold ">Freelance</span>
+            <p class="text-green-600 font-semibold lg:animate-pulse ">Developer</p>
+        </div>
+        <div
+            class="hidden lg:flex flex-col gap-3 rounded-lg shadow-lg shadow-black absolute top-0 bottom-0 m-auto right-10 bg-white p-6 h-fit w-1/3">
+            <h1 class="text-4xl text-green-600 font-bold">Hi, I'm Bhavesh</h1>
+            <p class="text-gray-900">"Welcome to my Freelance Development Hub! I'm a passionate software developer
+                dedicated to crafting tailored digital solutions that drive innovation and solve problems. With
+                expertise in HTML, CSS, Tailwind, Java, MySQL, I specialize in empowering businesses and individuals to
+                thrive in the digital landscape. Let's collaborate and turn your ideas into reality!"</p>
+            <a class="bg-green-500 text-gray-900 text-xl w-fit px-3 py-2 rounded-md font-semibold hover:scale-110"
+                href="#contact">Resume</a>
+        </div>
+    </div>
+    <!-- about -->
+
+    <div id="about" class="px-10  dark:bg-white">
+        <div class="container mx-auto py-40 flex flex-col-reverse lg:flex-row items-center gap-20">
+            <!-- left -->
+            <div class="relative">
+
+                <div class=" rounded-full overflow-hidden">
+                    <img src="../Images/me.png" alt="" />
+                </div>
+            </div>
+            <!-- right -->
+            <div class="my-auto flex flex-col gap-3">
+                <h1 class="text-green-500 font-bold text-4xl">ABOUT ME</h1>
+                <h1 class="text-amber-600 font-4xl dark:text-amber-800">Better Design</h1>
+                <h1 class="text-amber-600 font-4xl dark:text-amber-800">Better Experience</h1>
+                <p class="text-gray-300 font-2xl dark:text-gray-800">"Hello there! I'm a freelance software developer fueled
+                    by a passion
+                    for turning ideas into reality through code. With a diverse skill set spanning various programming
+                    languages and technologies, I specialize in creating tailored solutions to meet the unique needs of
+                    my clients. From web applications to mobile apps, I thrive on the freedom of freelancing, delivering
+                    high-quality, customized software while providing exceptional service and communication every step
+                    of the way.</p>
+                <p class="text-gray-300 font-2xl dark:text-gray-800">Above all, I value building long-term relationships with
+                    my clients,
+                    fostering trust and transparency throughout the development process. If you're looking for a
+                    freelance software developer who is not only technically proficient but also committed to your
+                    project's success, I'm here to bring your ideas to life."</p>
+
+                <h1 class="text-amber-600 font-4xl dark:text-amber-800">Qualifications</h1>
+                <p class="text-gray-300 font-3xl dark:text-gray-800">1. Bachloer of Engineering</p>
+                <p class="text-gray-300 font-3xl dark:text-gray-800">2. Post Graduation Diploma in Advance Computing</p>
+                <p class="text-gray-300 font-3xl dark:text-gray-800">3. Full Stack Development Course from Intershala</p>
+            </div>
+        </div>
+    </div>
+
+    <div id="skills" class="dark:bg-white">
+        <div class="container mx-auto py-20 px-2 lg:flex-col items-center gap-20 ">
+
+            <div class="relative">
+                <h1 class="text-green-500 font-bold text-3xl text-center uppercase">Skills</h1>
+            </div>
+
+            <div class="w-full my-auto flex flex-col gap-5 mt-16 ">
+
+
+                <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl ">HTML </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-full bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+                <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl ">CSS </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-full bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+                <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl uppercase">Tailwind </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-5/6 bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+                 <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl ">JAVASCRIPT </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-1/2 bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+                <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl uppercase">java </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-4/6 bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+                <div class="flex justify-between">
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl ">MySQL </h2>
+                    <h2 class="text-amber-600 dark:text-amber-800 font-medium text-2xl">100</h2>
+                </div>
+                <div class=" w-full bg-gray-100 dark:bg-gray-300 h-1.5 rounded-md">
+                    <div class="w-full bg-green-500 h-1.5 rounded-md"></div>
+                </div>
+            </div>
+
+
+        </div>
+
+    </div>
+    <div id="certificate" class="dark:bg-white">
+        <div class="container mx-auto px-2">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-2">
+                <h1 class="text-green-500 font-bold text-3xl text-center uppercase">Certificate</h1>
+                <p class=" text-justify text-xl text-amber-600 dark:text-amber-800 ">Here are some certification which I have done</p>
+            </div>
+            <!-- bottom -->
+            <div class="p-5 flex flex-wrap lg:justify-evenly gap-2">
+                <!-- Cards -->
+                <div
+                    class="w-full md:w-4/12  bg-gray-700 dark:bg-gray-300 rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:scale-110 hover:shadow-2xl  hover:shadow-green-400">
+                    <img class="w-14 h-14 rounded-lg" src="../Images/full-stack.png">
+                    <h1 class="font-medium text-lg text-amber-600 dark:text-amber-600 "> Full Stack Development: Let's begin</h1>
+                    <a class="text-green-500 dark:text-green-600 font-semibold text-sm" href="">Read More</a>
+                </div>
+                <!-- Cards -->
+                <div
+                    class="w-full md:w-4/12  bg-gray-700 dark:bg-gray-300 rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:scale-110 hover:shadow-2xl  hover:shadow-green-400">
+                    <img class="w-14 h-14 rounded-lg" src="../Images/CDAC.png">
+                    <h1 class="font-medium text-xl text-amber-600 dark:text-amber-600  ">Post Graduation Diploma In Advance Computing</h1>
+                    <a class="text-green-500 dark:text-green-600  font-semibold text-sm" href="">Read More</a>
+                </div>
+                <!-- Cards -->
+                <div
+                    class="w-full md:w-4/12  bg-gray-700 dark:bg-gray-300 rounded-lg p-5 my-3 md:my-10 flex flex-col gap-3 hover:scale-110 hover:shadow-2xl  hover:shadow-green-400">
+                    <img class="w-14 h-14 rounded-lg" src="../Images/java.jpg">
+                    <h1 class="font-medium text-xl text-amber-600 dark:text-amber-600  ">Java 8</h1>
+                    <a class="text-green-500 dark:text-green-600  font-semibold text-sm" href="">Read More</a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div id="project" class="py-10 dark:bg-white">
+        <div class="container mx-auto px-2">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-2">
+                <h1 class="text-green-500 font-bold text-3xl text-center uppercase">Projects</h1>
+                <h1 class="text-2xl text-amber-600 dark:text-amber-800 ">Works and Projects</h1>
+                <p class="text-gray-300 dark:text-gray-800 text-justify">"Welcome to my portfolio! Within these pages, you'll find a
+                    collection of projects that showcase my
+                    skills and passions. Each project represents a journey of creativity, problem-solving, and
+                    dedication. From innovative software applications to captivating design solutions, I've poured my
+                    heart and mind into crafting meaningful experiences. Join me as I explore the intersection of
+                    technology, design, and imagination."</p>
+            </div>
+            <!-- bottom -->
+            <div class="p-5 flex flex-wrap lg:justify-evenly gap-2">
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5  rounded-lg p-5 my-3 md:my-10 m-1 relative ">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/car-pooling.png">
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5  rounded-lg p-5 my-3 md:my-10 m-1 relative">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/portfolio.png">
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5  rounded-lg p-5 my-3 md:my-10 m-1 relative">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/1_ENDhbGaYLxASZ7n2qM3d1g.png">
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5 rounded-lg p-5 my-3 md:my-10 m-1 relative">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/6418e24adfcb16a96d9d98dc_alex beige.png">
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5  rounded-lg p-5 my-3 md:my-10 m-1 relative">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/6418f33d022ecf7c665616a1_designpilot template.png">
+                </div>
+                <!-- Cards -->
+                <div class="w-full md:w-5/12 lg:w-1/5  rounded-lg p-5 my-3 md:my-10 m-1 relative">
+                    <img class="rounded-lg  hover:scale-110 hover:shadow-2xl  hover:shadow-green-400"
+                        src="../Images/Web-Development-Projects-1-2048x1001.png">
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="contact" class="dark:bg-white"> 
+        <div class="container mx-auto gap-5 ">
+            <!-- top -->
+            <div class="flex flex-col items-center gap-2">
+                <h1 class="text-green-500 font-bold text-3xl text-center uppercase">Contact</h1>
+                <h1 class="text-2xl text-amber-600 ">Have a Question?</h1>
+
+            </div>
+            <!-- bottom -->
+            <form class="mt-5 p-8 flex flex-col gap-5 items-center">
+                <input class="p-2 w-5/6 md:w-1/2 ring-2 ring-amber-500 rounded-md hover:outline outline-green-400"
+                    type="text" placeholder="Name Surname">
+                <input class="p-2 w-5/6 md:w-1/2 ring-2 ring-amber-500 rounded-md hover:outline outline-green-400"
+                    type="email" placeholder="Email">
+                <input class="p-2 w-5/6 md:w-1/2 ring-2 ring-amber-500 rounded-md hover:outline outline-green-400"
+                    type="tel" placeholder="Phone Number">
+                <textarea class="p-2 w-5/6 md:w-1/2 ring-1 ring-amber-500 rounded-md hover:outline outline-green-400"
+                    name="" id="" cols="30" rows="10" placeholder="Your Query"></textarea>
+                <button
+                    class="w-1/2 md:w-1/2 bg-amber-500 text-white font-medium px-3 py-2 rounded-md cursor-pointer hover:bg-green-400"
+                    type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+    <!-- footer -->
+
+    <div>
+        <footer class="w-full  bg-black dark:bg-gray-500">
+            <div class=" container mx-auto py-5 flex items-center justify-between">
+                <div class="flex items-center gap-4">
+
+                    <span><img src="../Images/logo.png" class="w-12 h-10" alt="logo"></span>
+
+                </div>
+                <span class=" hidden md:block font-medium text-green-400">© 2024 bhavesh Wange. All rights
+                    reserved.</span>
+
+                <div class="flex gap-x-8">
+                    <img class="w-6 cursor-pointer hover:scale-150 " src="../Images/facebook.png">
+                    <img class="w-6 cursor-pointer hover:scale-150" src="../Images/instagram.png">
+                    <img class="w-6 cursor-pointer hover:scale-150" src="../Images/linkedin.png">
+                    <img class="w-6 cursor-pointer hover:scale-150" src="../Images/twitter.png">
+                </div>
+            </div>
+        </footer>
+    </div>
+    <script src="./app.js"></script>
+
+</body>
+
+</html>
